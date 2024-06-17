@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Circus Mouse</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <link rel="icon" href="pictures\icon.png">
+
+</head>
+<body>
+    <div id="title">Circus Mouse</div>
+    <div id="info">
+        <a href="https://threejs.org" target="_blank" rel="noopener">three.js - FBXLoader</a><br />
+        Character and animation from <a href="https://www.mixamo.com/" target="_blank" rel="noopener">Mixamo</a> <br/>
+        Made by Angel Rodrigo Barrios Yáñez
+    </div>
+
+    <div id="footer">
+        <h2>Combinaciones de teclas y acciones:</h2>
+        <ul>
+            <li><b>W</b>: Caminar hacia atrás</li>
+            <li><b>A</b>: Caminar a la izquierda</li>
+            <li><b>S</b>: Caminar hacia adelante</li>
+            <li><b>D</b>: Caminar a la derecha</li>
+            <li><b>Espacio</b>: Saltar</li>
+            <li><b>G</b>: Bailar Sexy</li>
+            <li><b>H</b>: Bailar Raro</li>
+            <li><b>Z + W</b>: Correr hacia atrás</li>
+            <li><b>Z + A</b>: Correr a la izquierda</li>
+            <li><b>Z + S</b>: Correr hacia adelante</li>
+            <li><b>Z + D</b>: Correr a la derecha</li>
+        </ul>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "./build/three.module.js",
+                "three/addons/": "./jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
